@@ -19,7 +19,7 @@ export default function Header() {
     <header className={`header ${isScrolled ? 'header-scrolled' : ''}`}>
       <div className="container header-container">
         <Link href="/" className="logo">
-          Wanderlust
+          git 
         </Link>
         <nav className="nav-desktop">
           <ul>
