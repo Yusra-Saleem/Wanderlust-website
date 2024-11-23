@@ -24,7 +24,6 @@ export default function Header() {
         <nav className="nav-desktop">
           <ul>
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/destinations">Destinations</Link></li>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </ul>
@@ -39,7 +38,6 @@ export default function Header() {
       <nav className={`mobile-menu ${isMobileMenuOpen ? 'active' : ''}`}>
         <ul>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/destinations">Destinations</Link></li>
           <li><Link href="/about">About</Link></li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
